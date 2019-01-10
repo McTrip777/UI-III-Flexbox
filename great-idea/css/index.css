@@ -132,11 +132,7 @@ h1, h2, h3, h4, h5 {
 .features p{
 	font-size:17px;
 }
-.about{
-	width:49%;
-	height:10px;
-	display:inline-block;
-}
+
 .about h2{
 	font-size: 20px;
 }
@@ -174,7 +170,6 @@ footer p{
 	width: 900px;
 	margin: auto;
 	padding: 24px;
-	border: 1px solid red;
 }
 .contain-service{
 	
@@ -204,8 +199,8 @@ footer p{
 }
 div .title-p{
 	border-bottom: 1px solid black;
-	padding-bottom: 40px;
-	margin-bottom:40px;
+	padding-bottom: 25px;
+	margin-bottom:25px;
 	width:absolute;
 }
 
@@ -215,7 +210,9 @@ div .title-p{
 	flex-direction: row;
 	width:absolute;
 	justify-content:space-between;
-	
+	padding-bottom:25px;
+	margin-bottom: 25px;
+	border-bottom: 1px solid black;
 }
 .flex section{
 	width:400px;
@@ -239,10 +236,39 @@ div .title-p{
 	border-radius:5px;
 }
 
-.foot-service{
+footer .all-foot{
 	display:flex;
+	justify-content: space-between;
+	align-items: top;
+}
+
+.foot-ser{
+	display:flex;
+	flex-direction: column;
 	width: 400px;
 }
 
+.foot-ser #foot-p p{
+	width:400px;
+	height: auto;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+	text-align: start;
+}
+.foot-ser img{
+	width:400px;
 
+}
+img.services-info-img{
+	width:400px;
+	height:280px;
+}
 
+.copyright{
+	display:flex;
+	justify-content: center;
+}
+.copyright p{
+	margin-top: 15px;
+	align-items: center;
+}
